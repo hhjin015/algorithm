@@ -19,7 +19,7 @@ public class Main_2606_바이러스 {
         edge = Integer.parseInt(br.readLine());
         visit = new boolean[vertex + 1];
 
-        adList = new ArrayList<>[vertex + 1];
+        adList = new ArrayList[vertex + 1];
         for (int i = 1; i <= vertex; i++) {
             adList[i] = new ArrayList<>();
         }
