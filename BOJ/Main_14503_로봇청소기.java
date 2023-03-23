@@ -32,8 +32,6 @@ public class Main_14503_로봇청소기 {
             }
         }
 
-        flag = false;
-        cleanCnt = 0;
         while (!flag) {
             if (map[r][c] == 0) {
                 map[r][c] = 2;
