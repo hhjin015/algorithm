@@ -1,11 +1,11 @@
-package BOJ;
+package CodeTree;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Main_CodeTree_싸움땅 {
+public class CodeTree_싸움땅 {
     static int N, M, K;
     static Player curPlayer;
     static List<Integer>[][] guns;

@@ -1,11 +1,11 @@
-package BOJ;
+package CodeTree;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Main_CodeTree_나무박멸 {
+public class CodeTree_나무박멸 {
     static int N, M, K, C, ans;
     static int[][] map, copyMap, herbicide;
     static int[] dr = {-1, -1, 0, 1, 1, 1, 0, -1};
